@@ -1,0 +1,13 @@
+:root {
+    --main-color: black;
+    --secondary-color: #fff;
+}
+
+.operations {
+    background-color: var(--main-color)
+}
+
+.operations:hover {
+    background-color: rgb(247, 164, 11);
+    border: none;
+}
