@@ -1,3 +1,15 @@
+body {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    color: var(--orange-color);
+    margin-left: 100px;
+    font-size: 50px;
+    text-shadow: 5px 5px var(--main-color);
+}
+
 .container {
     width: 300px;
     height: 500px;
