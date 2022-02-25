@@ -1,6 +1,7 @@
 :root {
     --main-color: black;
     --secondary-color: #fff;
+    --orange-color: rgb(247, 164, 11);
 }
 
 .operations {
@@ -8,6 +9,6 @@
 }
 
 .operations:hover {
-    background-color: rgb(247, 164, 11);
+    background-color: var(--orange-color);
     border: none;
 }

@@ -5,6 +5,7 @@
     margin: 0 auto;
     background-color: var(--main-color);
     border-radius: 5px;
+    box-shadow: -1px 7px 37px 2px rgba(0, 0, 0, 0.75);
 }
 
 .calculator-output {
@@ -16,6 +17,10 @@
 .calculator-input {
     padding-top: 10px;
     box-sizing: border-box;
+}
+
+.operations {
+    color: var(--orange-color);
 }
 
 button {
