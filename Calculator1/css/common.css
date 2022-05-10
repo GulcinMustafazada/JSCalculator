@@ -1,0 +1,14 @@
+:root {
+    --main-color: black;
+    --secondary-color: #fff;
+    --orange-color: rgb(247, 164, 11);
+}
+
+.operations {
+    background-color: var(--main-color)
+}
+
+.operations:hover {
+    background-color: var(--orange-color);
+    border: none;
+}
